@@ -5,6 +5,9 @@
   max-width: 500px;
 }
 
-#my-portrait{
-  width: 500px;
+.my-portrait {
+  max-height: 400px;
+  max-width: 500px;
+  height: 400px;
+  width: 4500px;
 }
