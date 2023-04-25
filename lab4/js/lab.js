@@ -1,7 +1,16 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
-
+// index.js - Lab 4 Pseudocoding Ping Pong
+// Author: Romi Ocadiz (r.ocadizc@ucsc.edu)
+// Date: April 23, 2023
+//Creating a Ping Pong Game
+	//Subproblems for ping pong
+			//Creating the ping pong layout (tables, paddles, ball, divider/net, score)
+					//Movement (Paddles and ball)
+				//Accepting user input (how the player controls movement/paddle movement)
+					//Computer player moving accordingly
+					//Ball following correct movement/path
+					//Insert game points
+		//Conditions for winning
+		//Conditions for losing
 // Constants
 
 // Functions

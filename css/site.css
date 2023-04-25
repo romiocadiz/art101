@@ -9,7 +9,7 @@ body {
 
 /* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
-  font-family: sans-serif;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /* and we can have rules that overlap other rules, both take effect */
@@ -23,16 +23,16 @@ h1 {
 #content {
   margin: 10px;
   padding: 10px;
-  border: solid 1px #888;
-  background-color: #84B59F;
+  border: solid 1px #c5f8bc;
+  background-color: #5874e4;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #888;
-  background-color: #A3C9A8;
+  border: solid 1px #f7f1a6;
+  background-color: #abc6f2;
 }
 #my-portrait {
   width: 500px;
