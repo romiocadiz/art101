@@ -7,3 +7,28 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+  /* we can have rules apply to multiple elements at the same time with commas */
+h1,h2,h3,p {
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+/* and we can have rules that overlap other rules, both take effect */
+h1 {
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-size: 200%;
+}
+
+#output{
+  font-family:Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+.images{
+  width: 40%;
+  height: 50%;
+}
+
+.octo{
+  width: 70%;
+  height: 50%;
+}

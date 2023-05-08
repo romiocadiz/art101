@@ -37,3 +37,21 @@ h1 {
 #my-portrait {
   width: 500px;
 }
+
+/* make nav bar links look like buttons from nav id links */
+nav a {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  border: solid 1px #888;
+  background-color: #647ee6;
+  text-decoration: none;
+  color: #000;
+  /* round the corners */
+  border-radius: 5px;
+}
+
+/* add a hover effect to the nav bar links */
+nav a:hover {
+  background-color: #97f1a6;
+}
