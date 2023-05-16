@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 10 - Events and Forms</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -23,29 +23,45 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 10 - Javascript Events and Forms</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>Working with a partner, write a html form that uses an event listener in Javascript. </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p>During this Lab, my partner and I had difficulty finding a good time to work on the lab.
+                       We also ran into some issues with the event listener refreshing the page once the button was clicked.
+                       We were able to fix this by adding a preventDefault() function to the event listener. We also had trouble
+                       with the output not showing up but fixed this by making sure our docucument.getElementById() was correct.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p>Overall this assignment was a bit more difficult because we struggled to find a time to meet. We then worked together to create a form with a text input and button. We then created an event listener for the button that would take in the user's name and display it on the page. We also used a function from a previous lab that sorts the name in alphabetical order. </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
+					<form>
+                       <label for="user-name">Input your name: </label>
+                       <input type="text" id="user-name" name="user-name" />
+                       <button id="my-button">Click Me!</button>
+                   </form>
+                   <h2>Script Output</h2>
 					<div id="output"></div>
 			</div>
 		</section>
 		<nav id="links">
-			<!-- Put links to other pages (including the homepage) here. -->
+				<a href="../lab2/index.html">Lab 2 File Structures</a>
+				<a href="../lab3/index.html">Lab 3 File Structures</a>
+				<a href="../lab4/index.html">Lab 4 File Structures</a>
+				<a href="../lab5/index.html">Lab 5 File Structures</a>
+				<a href="../lab6/index.html">Lab 6 File Structures</a>
+				<a href="../lab7/index.html">Lab 7 File Structures</a>
+				<a href="../lab8/index.html">Lab 8 File Structures</a>
+				<a href="../lab9/index.html">Lab 9 File Structures</a>
 		</nav>
 	</main>
 </body>
