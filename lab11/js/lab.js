@@ -1,21 +1,33 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Creating a Javascript file using jQuery
+// Author: Romi Ocadiz-Cruz
+// Date: May 17th, 2023
 
-// Constants
+//challenge button
+$('#challenge').append("<button id='a-button'>Button</button>");
 
-// Functions
+//problem button
+$('#problem').append("<button id='b-button'>Button</button>");
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+//regflection button
+$('#reflection').append("<button id='c-button'>Button</button>");
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+//results button
+$('#results').append("<button id='d-button'>Button</button>");
 
-// let's get this party started
-main();
+//testing
+
+$("#a-button").click(function(){
+  $(this).parent().toggleClass("special");
+})
+
+$("#b-button").click(function(){
+  $(this).parent().toggleClass("special");
+})
+
+$("#c-button").click(function(){
+  $(this).parent().toggleClass("special");
+})
+
+$("#d-button").click(function(){
+  $(this).parent().toggleClass("special");
+})
