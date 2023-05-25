@@ -11,3 +11,12 @@
   height: 400px;
   width: 4500px;
 }
+
+#content {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #c5f8bc;
+  background-color: #5874e4;
+  opacity: 70%;
+}
+
