@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 15 - AJAX</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -15,7 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 	
 	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
-	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
 	<script type="text/javascript" src="./js/lab.js" DEFER></script>
 </head>
@@ -23,28 +23,54 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 15 - AJAX</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>The challenge was to work with a parnter to add an api onto our html using javascript.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p>We had some problems figuring out which api worked for us however we found one that displayed cute dogs!</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p>We found an API that worked for us and we also decided to put extra work by adding a cute button that showed these amazing dog photos. </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
 					<div id="output"></div>
+<body>
+    <h4>Dog Image API</h4>
+
+    <button id="dogButton" onclick="fetchDogImage()">Gimme a Cute Dog</button>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
 			</div>
 		</section>
 		<nav id="links">
+			<a href="../lab2/index.html">Lab 2 File Structures</a>
+			<a href="../lab3/index.html">Lab 3 File Structures</a>
+			<a href="../lab4/index.html">Lab 4 File Structures</a>
+			<a href="../lab5/index.html">Lab 5 File Structures</a>
+			<a href="../lab6/index.html">Lab 6 File Structures</a>
+			<a href="../lab7/index.html">Lab 7 File Structures</a>
+			<a href="../lab8/index.html">Lab 8 File Structures</a>
+			<a href="../lab9/index.html">Lab 9 File Structures</a>
+			<a href="../lab10/index.html">Lab 10 File Structures</a>
+			<a href="../lab11/index.html">Lab 11 File Structures</a>
+			<a href="../lab12/index.html">Lab 12 File Structures</a>
+			<a href="../lab13/index.html">Lab 13 File Structures</a>
+			<a href="../lab14/index.html">Lab 14 File Structures</a>
+			<a href="../index.html">Homepage</a>
+			<a class="homelink" href="js/lab.js">Javascript</a>
 			<!-- Put links to other pages (including the homepage) here. -->
 		</nav>
 	</main>
